@@ -1,0 +1,12 @@
+@font-face {
+  font-family: 'PlayfairDisplaySC-BoldItalic';
+  src: url('PlayfairDisplaySC-BoldItalic.eot');
+  src: url('PlayfairDisplaySC-BoldItalic.eot?#iefix') format('embedded-opentype'),
+       url('PlayfairDisplaySC-BoldItalic.svg#PlayfairDisplaySC-BoldItalic') format('svg'),
+       url('PlayfairDisplaySC-BoldItalic.ttf') format('truetype'),
+       url('PlayfairDisplaySC-BoldItalic.woff') format('woff'),
+       url('PlayfairDisplaySC-BoldItalic.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
