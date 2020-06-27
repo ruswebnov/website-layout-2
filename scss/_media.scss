@@ -4,16 +4,46 @@
     top: -25%;
   }
 
+  .form {
+    background-size: 300px;
+  }
+
+
+  /* =====================WORK===================== */
+  .work__item {
+    padding-left: 20px;
+  }
+
+
+  /* =====================Services-detail===================== */
+  .services-detail {
+    .slick-prev {
+      left: -4%;
+    }
+
+    .slick-next {
+      right: -4%;
+    }
+  }
+
+  /* =====================reviews===================== */
+  .reviews {
+    .slick-prev {
+      left: -5%;
+    }
+
+    .slick-next {
+      right: -5%;
+    }
+  }
 }
-
-
 
 
 
 
 @media(max-width:1336px) {
 
-  /* INSTRUCTION */
+  /* =====================INSTRUCTION===================== */
   .instruction__inner {
     padding: 0 40px 0 40px;
   }
@@ -42,9 +72,14 @@
   }
 
 
+  /* =====================down-form===================== */
+  .down-form__img {
+    bottom: 0;
+    right: 0%;
+    width: 300px;
+  }
+
 }
-
-
 
 
 
@@ -150,11 +185,74 @@
   .title__head-subtitle {
     font-size: 24px;
   }
+
+
+  /* =====================FORM===================== */
+  .form {
+    padding: 30px 10px;
+    background-size: 200px;
+  }
+
+  .title__head {
+    margin-bottom: 30px;
+  }
+
+
+  /* =====================WORK===================== */
+  .work {
+    padding-top: 20px;
+  }
+
+
+  /* =====================Services-detail===================== */
+  .services-detail {
+    padding: 50px 0;
+  }
+
+  .services-detail__img {
+    width: 200px;
+  }
+
+  .services-detail__item {
+    margin-bottom: 20px;
+  }
+
+
+  /* =====================reviews===================== */
+  .reviews {
+    padding: 50px 0;
+  }
+
+  .reviews__slider {
+    width: 90%;
+  }
+
+  .reviews-img {
+    top: -10%;
+    width: 120px;
+  }
+
+
+  /* =====================down-form===================== */
+  .down-form {
+    padding: 30px 0 50px 0;
+  }
+
+  .down-form__img {
+    width: 200px;
+  }
+
+
+  /* =====================footer===================== */
+  .footer {
+    padding-top: 85px;
+  }
+
+  .form--footer {
+    padding: 30px 10px;
+  }
+
 }
-
-
-
-
 
 
 
@@ -251,6 +349,43 @@
   .title__head {
     margin-bottom: 50px;
   }
+
+  /* =====================WORK===================== */
+  .work {
+    .title__head {
+      margin-bottom: 90px;
+    }
+  }
+
+  .work__inner {
+    flex-wrap: wrap;
+  }
+
+  .work__item {
+    padding-left: 0px;
+    margin-bottom: 55px;
+  }
+
+  .footer__item-tel {
+    display: block;
+  }
+
+
+
+  /* =====================footer===================== */
+  .form-subtitle--footer {
+    max-width: 100%;
+    margin: 0 15px 10px 0;
+  }
+
+  .form-head {
+    padding: 10px 10px;
+  }
+
+  .footer__inner {
+    margin-top: 20px;
+  }
+
 }
 
 
@@ -268,8 +403,28 @@
   .slick-next {
     right: 2%;
   }
-}
 
+
+  /* =====================FORM===================== */
+  .form-box {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .form-input {
+    margin-right: 0;
+    margin-bottom: 15px;
+  }
+
+
+  /* =====================Footer===================== */
+  .footer {
+    .form-box {
+      flex-direction: column;
+    }
+  }
+
+}
 
 
 
@@ -291,10 +446,6 @@
   .form-head {
     border-width: 4px;
   }
-
-
-
-
 
 }
 
@@ -334,11 +485,45 @@
     flex-direction: column;
     align-items: center;
   }
+
+
+  /* =====================FORM===================== */
+  .form-head {
+    padding: 20px 10px;
+  }
+
+  .form {
+    background-size: 100px;
+  }
+
+
+  /* =====================reviews===================== */
+  .reviews {
+    padding: 20px 0 50px 0;
+  }
+
+  .reviews-img {
+    display: none;
+  }
+
+
+  /* =====================down-form===================== */
+  .down-form__img {
+    width: 140px;
+    right: -6%;
+  }
+
+
+
+  /* Footer */
+  .footer__inner {
+    margin-top: 35px;
+
+    .header__item-title {
+      display: block;
+    }
+  }
 }
-
-
-
-
 
 
 
@@ -351,4 +536,63 @@
     margin-right: 0;
     margin-bottom: 15px;
   }
+
+
+
+  /* =====================work===================== */
+  .work__item-box {
+    text-align: center;
+  }
+
+
+  /* =====================Services-detail===================== */
+  .services-detail__item {
+    img {
+      width: 70px;
+    }
+  }
+
+
+
+  /*===================== Footer =====================*/
+  .footer {
+    padding: 85px 0 20px 0;
+  }
+
+  .footer__inner {
+    flex-wrap: wrap;
+  }
+
+  .footer__item {
+    padding: 0 10px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+  }
+
+  .header__item-tel {
+    margin-right: 10px;
+  }
+
+}
+
+
+
+
+@media(max-width: 446px) {
+  .down-form {
+    .title__head-title {
+      font-size: 28px;
+    }
+  }
+
+
+  /* ==============Footer=================== */
+  .footer__item--logo {
+    order: 3;
+  }
+
+  .footer__inner {
+    margin-top: 20px;
+  }
+
 }

@@ -480,6 +480,7 @@
 .form-box {
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
 }
 
 .btn-form {
@@ -514,6 +515,7 @@
 .work__inner {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 .work__item-box {
@@ -534,6 +536,8 @@
   font-size: 20px;
   line-height: 26px;
   font-weight: 900;
+  min-height: 54px;
+  height: 100%;
 }
 
 .work__item-text {
@@ -556,12 +560,33 @@
   }
 
   .slick-prev {
-    left: 20%;
+    left: 5%;
   }
 
   .slick-next {
-    right: 20%;
+    right: 5%;
   }
+
+  .slick-dots {
+    bottom: -35px;
+  }
+}
+
+.services-detail__inner {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.services-detail__item {
+  flex: 1 0 25%;
+  padding: 0 5px;
+}
+
+.services-detail__slider {
+  width: 90%;
+  text-align: center;
+  margin: 0 auto;
 }
 
 .services-detail__img {
@@ -595,6 +620,7 @@
 .btn--slider {
   margin: 0 auto;
   padding: 16px 60px;
+
 }
 
 
@@ -611,11 +637,15 @@
   .slick-next {
     right: -15%;
   }
+
+  .slick-dots {
+    bottom: -30px;
+  }
 }
 
 .reviews-img {
   position: absolute;
-  top: -19%;
+  top: -23%;
   right: 2%;
 }
 
