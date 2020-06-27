@@ -19,7 +19,5 @@ $(document).ready(function(){
     slidesToScroll:1,
     dots:false,
     arrows:true,
-
-    
   })
 })
