@@ -4,6 +4,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
   <link rel="stylesheet" href="css/style.min.css">
   <title>Document</title>
 </head>
@@ -11,9 +13,9 @@
 <body>
   <header class="header">
     <div class="container">
-      <div class="header__inner">
+      <div class="header__inner animated fadeInUp delay-1s">
         <div class="header__item">
-          <div class="header__item-logo">
+          <div class="header__item-logo ">
             <a href="">
               <img src="image/header/logo.png" alt="" class="header__item-img">
             </a>
@@ -36,11 +38,22 @@
         <span class="mobile-menu-item"></span>
       </div>
     </div>
-    <div class="header__content">
-      <div class="header__content-title">
+
+    <nav class="nav">
+      <ul class="nav-ul">
+        <li><a href="#procedur" class="nav-link">Процедура Банкротства</a></li>
+        <li><a href="#form" class="nav-link">Узнать стоимость</a></li>
+        <li><a href="#work" class="nav-link">Как мы работаем</a></li>
+        <li><a href="#reviews" class="nav-link">Наши работы</a></li>
+        <li><a href="#contacts" class="nav-link">Контакты</a></li>
+      </ul>
+    </nav>
+
+    <div class="header__content ">
+      <div class="header__content-title wow fadeIn delay-1s">
         <h1>Банкротство физических лиц</h1>
       </div>
-      <div class="header__content-subtitle">
+      <div class="header__content-subtitle wow fadeIn delay-1s">
         <h2> в г. Архангельск</h2>
       </div>
     </div>
@@ -50,7 +63,7 @@
     <div class="slider">
       <div class="slider__inner">
         <div class="slider__inner-img">
-          <img src="image/header/man.png" alt="man">
+          <img class="wow fadeInLeft delay-1s" src="image/header/man.png" alt="man">
         </div>
         <div class="slider__item">
           <div class="slider__item-title">
@@ -95,10 +108,10 @@
   </header>
 
   <section class="instruction">
-    <img class="img-calc" src="image/instruction/calc.png" alt="calculator">
+    <img class="img-calc wow fadeInRight delay-2s" src="image/instruction/calc.png" alt="calculator">
     <div class="container">
       <div class="instruction__inner">
-        <div class="instruction__item">
+        <div class="instruction__item wow fadeInLeft" data-wow-delay="0.5s" data-wow-offset="100">
           <h2 class="instruction__item-title">
             Попали в тяжелое финансовое положение?
           </h2>
@@ -106,7 +119,7 @@
             <p>За последний год работы мы уже помогли <b> более, чем 150 клиентам</b> выйти из трудной ситуации!</p>
           </div>
         </div>
-        <div class="instruction__item">
+        <div class="instruction__item wow fadeInRight" data-wow-delay="1s" data-wow-offset="100">
           <form class="instruction__item-form ">
             <h3 class="instruction-form__title">
               Получите бесплатно пошаговую инструкцию
@@ -128,16 +141,16 @@
   </section>
 
 
-  <section class="procedur">
+  <section class="procedur" id="procedur">
     <div class="container">
-      <div class="title__head">
+      <div class="title__head wow fadeInDown" data-wow-delay="1s" data-wow-offset="100">
         <h2 class="title__head-title">
           Сложная процедура банкротства?
         </h2>
         <p class="title__head-subtitle">С нами это легко!</p>
       </div>
       <div class="procedur__inner">
-        <div class="procedur__item">
+        <div class="procedur__item wow fadeIn" data-wow-delay="1s" data-wow-offset="100">
           <div class="procedur__item-box">
             <img class="procedur__item-img" src="image/procedur/image01.png" alt="">
             <p class="procedur__item-text">
@@ -148,7 +161,7 @@
           </div>
         </div>
 
-        <div class="procedur__item">
+        <div class="procedur__item wow fadeIn" data-wow-delay="1.6s" data-wow-offset="100">
           <div class="procedur__item-box">
             <img class="procedur__item-img" src="image/procedur/image02.png" alt="">
             <p class="procedur__item-text">
@@ -157,7 +170,7 @@
           </div>
         </div>
 
-        <div class="procedur__item">
+        <div class="procedur__item wow fadeIn" data-wow-delay="2.2s" data-wow-offset="100">
           <div class="procedur__item-box">
             <img class="procedur__item-img" src="image/procedur/image03.png" alt="">
             <p class="procedur__item-text">
@@ -166,7 +179,7 @@
           </div>
         </div>
         
-        <div class="procedur__item">
+        <div class="procedur__item wow fadeIn" data-wow-delay="3s" data-wow-offset="100">
           <div class="procedur__item-box">
             <img class="procedur__item-img" src="image/procedur/image04.png" alt="">
             <p class="procedur__item-text">
@@ -179,9 +192,9 @@
   </section>
 
  
-  <section class="form">
+  <section class="form" id="form">
     <div class="container">
-      <div class="title__head">
+      <div class="title__head wow fadeInDown" data-wow-delay="0.5s" data-wow-offset="100">
         <h2 class="title__head-title">
           Как узнать стоимость услуг?
         </h2>
@@ -206,15 +219,15 @@
   </section>
 
 
-  <section class="work">
+  <section class="work" id="work">
     <div class="container">
-      <div class="title__head">
+      <div class="title__head wow fadeInDown" data-wow-delay="0.5s" data-wow-offset="100">
         <h2 class="title__head-title">
           Удобно ли с нами работать?
         </h2>
       </div>
       <div class="work__inner">
-        <div class="work__item">
+        <div class="work__item wow fadeInUp" data-wow-delay="1s" data-wow-offset="100">
           <div class="work__item-box">
             <img src="image/work/icon01.png" alt="">
             <h3 class="work__item-title">Рассрочка до 12 месяцев</h3>
@@ -225,7 +238,7 @@
           </div>
         </div>
 
-        <div class="work__item">
+        <div class="work__item wow fadeInUp" data-wow-delay="1.5s" data-wow-offset="100">
           <div class="work__item-box">
             <img src="image/work/icon02.png" alt="">
             <h3 class="work__item-title">Работаем в выходные</h3>
@@ -235,7 +248,7 @@
           </div>
         </div>
 
-        <div class="work__item">
+        <div class="work__item wow fadeInUp" data-wow-delay="2s" data-wow-offset="100">
           <div class="work__item-box">
             <img src="image/work/icon03.png" alt="">
             <h3 class="work__item-title">Оплата по результату</h3>
@@ -250,45 +263,46 @@
 
  
   <section class="services-detail">
-    <img class="services-detail__img" src="image/servicesDetail/book.png" alt="">
+    <img class="services-detail__img wow fadeIn" data-wow-delay="2s" data-wow-offset="100" src="image/servicesDetail/book.png" alt="">
     <div class="container">
-      <div class="title__head">
+      <div class="title__head wow fadeInDown" data-wow-delay="0.5s" data-wow-offset="100">
         <h2 class="title__head-title">
           Сколько длится процедура банкротства?
         </h2>
         <p class="title__head-subtitle">В среднем, процедура банкротства
           длится от 6 до 12 месяцев</p>
       </div>
+      
       <div class="services-detail__inner">
-        <div class="services-detail__item">
+        <div class="services-detail__item wow zoomIn" data-wow-delay="1s" data-wow-offset="100">
           <img src="image/servicesDetail/icon01.png" alt="">
         </div>
-        <div class="services-detail__item">
+        <div class="services-detail__item wow zoomIn" data-wow-delay="1.2s" data-wow-offset="100">
           <img src="image/servicesDetail/icon02.png" alt="">
         </div>
-        <div class="services-detail__item">
+        <div class="services-detail__item wow zoomIn" data-wow-delay="1.4s" data-wow-offset="100">
           <img src="image/servicesDetail/icon03.png" alt="">
         </div>
-        <div class="services-detail__item">
+        <div class="services-detail__item wow zoomIn" data-wow-delay="1.6s" data-wow-offset="100">
           <img src="image/servicesDetail/icon04.png" alt="">
         </div>
-        <div class="services-detail__item">
+        <div class="services-detail__item wow zoomIn" data-wow-delay="1.8s" data-wow-offset="100">
           <img src="image/servicesDetail/icon05.png" alt="">
         </div>
-        <div class="services-detail__item">
+        <div class="services-detail__item wow zoomIn" data-wow-delay="2s" data-wow-offset="100">
           <img src="image/servicesDetail/icon06.png" alt="">
         </div>
-        <div class="services-detail__item">
+        <div class="services-detail__item wow zoomIn" data-wow-delay="2.2s" data-wow-offset="100">
           <img src="image/servicesDetail/icon07.png" alt="">
         </div>
-        <div class="services-detail__item">
+        <div class="services-detail__item wow zoomIn" data-wow-delay="2.4s" data-wow-offset="100">
           <img src="image/servicesDetail/icon08.png" alt="">
         </div>
       </div>
-
+    
     <div class="services-detail__slider">
       <div class="slider__item">
-        <div class="slider__item-title">
+        <div class="slider__item-title wow fadeInDown" data-wow-delay="0.5s" data-wow-offset="100">
           Подготовка и сбор документов 
         </div>
         <div class="slider__item-text">
@@ -403,36 +417,39 @@
   </section>
 
 
-
-  <section class="reviews">
-    <img class="reviews-img" src="image/reviews/gerb.png" alt="" >
+  <section class="reviews" id="reviews">
+    <img class="reviews-img wow fadeInRight" data-wow-delay="2s" data-wow-offset="100" src="image/reviews/gerb.png" alt="" >
     <div class="container">
-      <div class="title__head">
+      <div class="title__head wow fadeInDown" data-wow-delay="0.5s" data-wow-offset="100">
         <h2 class="title__head-title">
-          Сколько длится процедура банкротства?
+          Опыт работы? - Более 10 лет!  
         </h2>
-        <p class="title__head-subtitle">В среднем, процедура банкротства
-          длится от 6 до 12 месяцев</p>
+        <p class="title__head-subtitle">Посмотрите наши успешные решения по делам:</p>
       </div>
-
       <div class="reviews__slider">
-        <div class="reviews__slider-item">
-          <img src="image/reviews/document.png" alt="">
+
+          <div class="reviews__slider-item wow fadeInUp" data-wow-delay="1s" data-wow-offset="100">
+            <a class="fancybox" data-fancybox="gallery" href="image/reviews/big-document.png"> <span></span>
+              <img src="image/reviews/big-document.png" alt="">
+            </a>
+          </div>
+
+        <div class="reviews__slider-item wow fadeInUp" data-wow-delay="1.4s" data-wow-offset="100">
+          <a class="fancybox" data-fancybox="gallery" href="image/reviews/big-document.png">
+            <img src="image/reviews/big-document.png" alt="">
+          </a>
         </div>
-        <div class="reviews__slider-item">
-          <img src="image/reviews/document.png" alt="">
+
+        <div class="reviews__slider-item wow fadeInUp" data-wow-delay="1.8s" data-wow-offset="100">
+          <a class="fancybox" data-fancybox="gallery" href="image/reviews/big-document.png">
+            <img src="image/reviews/big-document.png" alt="">
+          </a>
         </div>
+
         <div class="reviews__slider-item">
-          <img src="image/reviews/document.png" alt="">
-        </div>
-        <div class="reviews__slider-item">
-          <img src="image/reviews/document.png" alt="">
-        </div>
-        <div class="reviews__slider-item">
-          <img src="image/reviews/document.png" alt="">
-        </div>
-        <div class="reviews__slider-item">
-          <img src="image/reviews/document.png" alt="">
+          <a class="fancybox" data-fancybox="gallery" href="image/reviews/big-document.png">
+            <img src="image/reviews/big-document.png" alt="">
+          </a>
         </div>
       </div>
     </div>
@@ -440,9 +457,9 @@
 
 
   <section class="down-form">
-    <img class="down-form__img" src="image/formDown/image.png" alt="">
+    <img class="down-form__img wow fadeInUp" data-wow-delay="1s" data-wow-offset="100" src="image/formDown/image.png" alt="">
     <div class="container">
-      <div class="title__head">
+      <div class="title__head wow fadeInDown" data-wow-delay="0.5s" data-wow-offset="100">
         <h2 class="title__head-title">
           Гарантируем положительный результат!
         </h2>
@@ -477,9 +494,10 @@
     </script>
   </section>
 
-  <footer class="footer">
+
+  <footer class="footer" id="contacts">
     <div class="box">
-      <form class="form-head form--footer">
+      <form class="form-head form--footer wow fadeIn" data-wow-delay="1.5s" data-wow-offset="100">
         <div class="form-box">
           <p class="form-subtitle form-subtitle--footer">Договориться о встрече
             на удобное для вас время:</p>
@@ -492,7 +510,7 @@
           <input type="checkbox" checked>Согласен с <u> обработкой персональных данных </u>
         </p>
       </form>
-      <div class="footer__inner">
+      <div class="footer__inner wow fadeIn" data-wow-delay="2s" data-wow-offset="100">
         <div class="footer__item">
           <p>Реквизиты</p>
         </div>
@@ -514,9 +532,11 @@
     </div>
   </footer>
 
-
   <!-- JQuery -->
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
+  <!-- Fancybox -->
+  <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+  <!-- My scripts -->
   <script src="js/libs.min.js"></script>
   <script src="js/main.js"></script>
 </body>

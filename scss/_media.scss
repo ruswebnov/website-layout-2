@@ -231,6 +231,12 @@
     top: -10%;
     width: 120px;
   }
+  .services-detail__item{
+    img{
+      width: 50px;
+      height: 50px;
+    }
+  }
 
 
   /* =====================down-form===================== */
@@ -350,6 +356,8 @@
     margin-bottom: 50px;
   }
 
+
+
   /* =====================WORK===================== */
   .work {
     .title__head {
@@ -468,7 +476,11 @@
   .slider__item-title {
     font-size: 18px;
   }
-
+  .slider__item-text{
+    p{
+      font-size: 16px;
+    }
+  }
 
   /* ===================Instruction============== */
   .img-pig {
@@ -504,6 +516,12 @@
 
   .reviews-img {
     display: none;
+  }
+  .services-detail__item{
+    img{
+      width: 25px;
+      height: 25px;
+    }
   }
 
 
@@ -542,14 +560,6 @@
   /* =====================work===================== */
   .work__item-box {
     text-align: center;
-  }
-
-
-  /* =====================Services-detail===================== */
-  .services-detail__item {
-    img {
-      width: 70px;
-    }
   }
 
 
