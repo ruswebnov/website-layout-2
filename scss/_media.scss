@@ -1,0 +1,608 @@
+@media(max-width:1400px) {
+  .img-calc {
+    width: 20%;
+    top: -25%;
+  }
+
+  .form {
+    background-size: 300px;
+  }
+
+
+  /* =====================WORK===================== */
+  .work__item {
+    padding-left: 20px;
+  }
+
+
+  /* =====================Services-detail===================== */
+  .services-detail {
+    .slick-prev {
+      left: -4%;
+    }
+
+    .slick-next {
+      right: -4%;
+    }
+  }
+
+  /* =====================reviews===================== */
+  .reviews {
+    .slick-prev {
+      left: -5%;
+    }
+
+    .slick-next {
+      right: -5%;
+    }
+  }
+}
+
+
+
+
+@media(max-width:1336px) {
+
+  /* =====================INSTRUCTION===================== */
+  .instruction__inner {
+    padding: 0 40px 0 40px;
+  }
+
+  .instruction {
+    padding: 60px 0;
+  }
+
+  .img-pig {
+    bottom: -128px;
+    left: 39%;
+  }
+
+
+  /* ================PROCEDUR==================== */
+  .procedur {
+    padding-top: 120px;
+  }
+
+  .procedur__item-box {
+    padding-right: 15px;
+  }
+
+  .procedur__inner {
+    flex-wrap: wrap;
+  }
+
+
+  /* =====================down-form===================== */
+  .down-form__img {
+    bottom: 0;
+    right: 0%;
+    width: 300px;
+  }
+
+}
+
+
+
+
+@media(max-width:1124px) {
+  .procedur__item {
+    flex: 1 0 100%;
+    margin-bottom: 40px;
+  }
+
+  .procedur__item-box {
+    align-items: baseline;
+  }
+
+  .procedur__item-text {
+    max-width: 100%;
+  }
+
+  .procedur {
+    padding-bottom: 10px;
+  }
+
+}
+
+
+
+
+@media(max-width:992px) {
+
+  /* =====================HEADER================= */
+  .header__item-title {
+    margin-right: 40px;
+  }
+
+  .header__content-title {
+    h1 {
+      font-size: 40px;
+    }
+  }
+
+  .slider__inner-img {
+    left: 0;
+
+    img {
+      width: 70%;
+    }
+  }
+
+  .slick-next {
+    right: 10%;
+  }
+
+  .slick-prev {
+    left: 10%;
+  }
+
+
+
+  /* ========================INSTRUCTION===================== */
+  .instruction {
+    text-align: center;
+    padding: 20px 0;
+  }
+
+  .instruction__item-title {
+    font-size: 32px;
+    margin: 15px 0 50px 0;
+  }
+
+  .instruction__inner {
+    flex-direction: column;
+  }
+
+  .instruction__item {
+    max-width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .instruction__item-title,
+  .instruction__item-text {
+    max-width: 100%;
+  }
+
+  .instruction__item-text {
+    &::before {
+      left: -50px;
+    }
+  }
+
+  .img-pig {
+    bottom: -165px;
+    left: 0;
+  }
+
+
+  /* =========================Procedur =================*/
+  .title__head-title {
+    font-size: 32px;
+    margin-bottom: 20px;
+    margin-top: 25px;
+  }
+
+  .title__head-subtitle {
+    font-size: 24px;
+  }
+
+
+  /* =====================FORM===================== */
+  .form {
+    padding: 30px 10px;
+    background-size: 200px;
+  }
+
+  .title__head {
+    margin-bottom: 30px;
+  }
+
+
+  /* =====================WORK===================== */
+  .work {
+    padding-top: 20px;
+  }
+
+
+  /* =====================Services-detail===================== */
+  .services-detail {
+    padding: 50px 0;
+  }
+
+  .services-detail__img {
+    width: 200px;
+  }
+
+  .services-detail__item {
+    margin-bottom: 20px;
+  }
+
+
+  /* =====================reviews===================== */
+  .reviews {
+    padding: 50px 0;
+  }
+
+  .reviews__slider {
+    width: 90%;
+  }
+
+  .reviews-img {
+    top: -10%;
+    width: 120px;
+  }
+  .services-detail__item{
+    img{
+      width: 50px;
+      height: 50px;
+    }
+  }
+
+
+  /* =====================down-form===================== */
+  .down-form {
+    padding: 30px 0 50px 0;
+  }
+
+  .down-form__img {
+    width: 200px;
+  }
+
+
+  /* =====================footer===================== */
+  .footer {
+    padding-top: 85px;
+  }
+
+  .form--footer {
+    padding: 30px 10px;
+  }
+
+}
+
+
+
+
+@media(max-width:768px) {
+
+  /* =========================HEADER==================== */
+  .header__item-tel {
+    display: none;
+  }
+
+  .header__item-img {
+    width: 50%;
+    margin-right: 10px;
+  }
+
+  .header__item-title {
+    font-size: 12px;
+  }
+
+  .btn-item--header {
+    display: none;
+  }
+
+  .mobile-menu {
+    display: block;
+  }
+
+  .header__content-title {
+    h1 {
+      font-size: 32px;
+    }
+  }
+
+  .header__content-subtitle {
+    h2 {
+      font-size: 22px;
+    }
+  }
+
+  .header__content {
+    padding: 25px 10px;
+  }
+
+  .slider__inner {
+    padding: 90px 0;
+    height: 300px;
+  }
+
+  .slider__item-title {
+    margin-bottom: 15px;
+  }
+
+
+  /* ======================INSTRUCTION=============== */
+  .img-calc {
+    display: none;
+  }
+
+  .instruction__item-form {
+    padding: 20px 10px;
+  }
+
+  .instruction__item-title {
+    font-size: 24px;
+  }
+
+  .instruction-form__title,
+  .form-title {
+    font-size: 18px;
+  }
+
+  .instruction-form__input {
+    padding: 10px 20px;
+
+  }
+
+  .img-pig {
+    width: 100px;
+    bottom: 0;
+  }
+
+
+
+  /* ==================Procedur=================== */
+  .procedur {
+    padding: 10px;
+  }
+
+  .procedur__item-box {
+    padding-left: 0;
+  }
+
+  .title__head {
+    margin-bottom: 50px;
+  }
+
+
+
+  /* =====================WORK===================== */
+  .work {
+    .title__head {
+      margin-bottom: 90px;
+    }
+  }
+
+  .work__inner {
+    flex-wrap: wrap;
+  }
+
+  .work__item {
+    padding-left: 0px;
+    margin-bottom: 55px;
+  }
+
+  .footer__item-tel {
+    display: block;
+  }
+
+
+
+  /* =====================footer===================== */
+  .form-subtitle--footer {
+    max-width: 100%;
+    margin: 0 15px 10px 0;
+  }
+
+  .form-head {
+    padding: 10px 10px;
+  }
+
+  .footer__inner {
+    margin-top: 20px;
+  }
+
+}
+
+
+
+
+@media(max-width:700px) {
+  .slider__inner-img {
+    display: none;
+  }
+
+  .slick-prev {
+    left: 2%;
+  }
+
+  .slick-next {
+    right: 2%;
+  }
+
+
+  /* =====================FORM===================== */
+  .form-box {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .form-input {
+    margin-right: 0;
+    margin-bottom: 15px;
+  }
+
+
+  /* =====================Footer===================== */
+  .footer {
+    .form-box {
+      flex-direction: column;
+    }
+  }
+
+}
+
+
+
+
+@media(max-width:578px) {
+
+  /* ======================INSTRUCTION================ */
+  .instruction__inner {
+    padding: 0 10px;
+  }
+
+  .instruction__item-text {
+    &::before {
+      left: -22px;
+    }
+  }
+
+  .instruction__item-form,
+  .form-head {
+    border-width: 4px;
+  }
+
+}
+
+
+
+
+@media(max-width:544px) {
+
+  /* =============Header================ */
+  .header__item-title {
+    display: none;
+  }
+
+  .header__content-subtitle {
+    h2 {
+      font-size: 18px;
+    }
+  }
+
+  .slider__item-title {
+    font-size: 18px;
+  }
+  .slider__item-text{
+    p{
+      font-size: 16px;
+    }
+  }
+
+  /* ===================Instruction============== */
+  .img-pig {
+    bottom: -20px;
+  }
+
+
+  /* ===================Procedur====================*3   */
+  .procedur__inner {
+    text-align: center;
+  }
+
+  .procedur__item-box {
+    flex-direction: column;
+    align-items: center;
+  }
+
+
+  /* =====================FORM===================== */
+  .form-head {
+    padding: 20px 10px;
+  }
+
+  .form {
+    background-size: 100px;
+  }
+
+
+  /* =====================reviews===================== */
+  .reviews {
+    padding: 20px 0 50px 0;
+  }
+
+  .reviews-img {
+    display: none;
+  }
+  .services-detail__item{
+    img{
+      width: 25px;
+      height: 25px;
+    }
+  }
+
+
+  /* =====================down-form===================== */
+  .down-form__img {
+    width: 140px;
+    right: -6%;
+  }
+
+
+
+  /* Footer */
+  .footer__inner {
+    margin-top: 35px;
+
+    .header__item-title {
+      display: block;
+    }
+  }
+}
+
+
+
+
+@media(max-width:495px) {
+
+  /* ===================Instruction====================== */
+  .instruction-form__input,
+  .form-input {
+    margin-right: 0;
+    margin-bottom: 15px;
+  }
+
+
+
+  /* =====================work===================== */
+  .work__item-box {
+    text-align: center;
+  }
+
+
+
+  /*===================== Footer =====================*/
+  .footer {
+    padding: 85px 0 20px 0;
+  }
+
+  .footer__inner {
+    flex-wrap: wrap;
+  }
+
+  .footer__item {
+    padding: 0 10px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+  }
+
+  .header__item-tel {
+    margin-right: 10px;
+  }
+
+}
+
+
+
+
+@media(max-width: 446px) {
+  .down-form {
+    .title__head-title {
+      font-size: 28px;
+    }
+  }
+
+
+  /* ==============Footer=================== */
+  .footer__item--logo {
+    order: 3;
+  }
+
+  .footer__inner {
+    margin-top: 20px;
+  }
+
+}
